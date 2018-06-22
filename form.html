@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>The Princess Closet</title>
+
+<meta name="description" content="The Princess Closet custom request form.  Place a request to have clothes or accessories custom
+made for yourself or your little girl."/>
+<meta name="keywords" content="Clothes, boutique, unique, one of a kind, girls clothes, womens clothes, accessories, 
+girls accessories, women's accessories, girls bows, dresses, custom, order"/>
+<meta name="Author" content="Sheila Percy"/>
+<meta name="Copyright" content="Copyright &copy; 2018 The Princess Closet"/>
+<link rel="stylesheet" type="text/css" href="css/final.css">
+<script src="js/form.js"></script>
+</head>
+
+
+<body>
+<a name="top"></a>
+<h1>The Princess Closet</h1>
+
+
+
+<h2>Custom Requests</h2>
+
+
+<div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="girls.html">Girls</a>
+      <a href="women.html">women</a>
+      <a href="outerwear.html">Outerwear</a>
+      <a href="accessories.html">Accessories</a>
+</div> <!--closing tag for navbar-->
+
+
+
+<div id="content">
+Submitting request does not guarantee purchase, nor does it guarantee item will be made, however I will do my best to fulfill requests.  Please include as much detail as possible.  You will receive
+a price quote within 24 hours.
+<br>
+<form name="myForm" onsubmit="return validateForm()" action="mailto:ThePrincessClosetstudio@gmail.com" method="post" enctype="text/plain">
+<br>
+
+*required fields<br>
+<br>
+<a name="contact"></a>
+<fieldset>
+<legend>Contact Information</legend>
+Full name:*<br>
+<textarea name="name" tabindex="1"></textarea><br>
+<br>
+Street:*<br>
+<textarea name="street" tabindex="2"></textarea><br>
+Apt:<br>
+<textarea name="aptNo" tabindex="3"></textarea><br>
+City:*<br>
+<textarea name="city" tabindex="4"></textarea><br>
+State:*<br>
+<textarea name="state" tabindex="5"></textarea><br>
+Zip:*<br>
+<textarea name="zip" tabindex="6"></textarea><br>
+Phone:*<br>
+<textarea name="phone" tabindex="7"></textarea><br>
+Email Address:*<br>
+<textarea name="email" tabindex="8"></textarea><br>
+</fieldset>
+<br>
+
+<fieldset>
+<legend>Request</legend>
+<a name="request"></a>
+Size:*<br>
+<input type="radio" name="size" id="child" value="child" tabindex="9">
+<label for="child">Child</label><br>
+<input type="radio" name="size" id="adult" value="adult">
+<label for="adult">Adult</label><br>
+<br>
+Style:*<br>
+<input type="radio" name="style" id="dress" value="dress" tabindex="10">
+<label for="dress">Dress</label><br>
+<input type="radio" id="pants/shorts/skirt" name="style" value="pants/shorts/skirt">
+<label for="pants/shorts/skirt">Pants/shorts/skirt</label><br>
+<input type="radio" id="shirt/blouse" name="style" value="shirt/blouse">
+<label for="shirt/blouse">Shirt/blouse</label><br>
+<input type="radio" name="style" id="accessory" value="accessory">
+<label for="accessory">Accessory</label><br>
+<input type="radio" name="style" id="outerwear" value="outerwear">
+<label for="outerwear">Outerwear</label><br>
+<input type="radio" name="style" id="costume" value="costume">
+<label for="costume">Costume</label><br>
+<input type="radio" name="style" value="other">
+<label for="costume">Costume</label><br>
+<br>
+Chest (in inches):
+  <select name="chest" tabindex="11">
+     <option value="IN">IN</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+	<option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+	<option value="28">28</option>
+    <option value="29">29</option>
+	<option value="30">30</option>
+    <option value="31">31</option>
+    <option value="32">32</option>
+    <option value="33">33</option>
+	<option value="34">34</option>
+    <option value="35">35</option>
+    <option value="36">36</option>
+    <option value="37">37</option>
+	<option value="38">38</option>
+    <option value="39">39</option>
+	<option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+	<option value="44">44</option>
+    <option value="45">45</option>
+    <option value="46">46</option>
+    <option value="47">47</option>
+	<option value="48">48</option>
+    <option value="49">49</option>
+  </select>
+ <br>
+ <br>
+ Waist (in inches):
+  <select name="chest" tabindex="12">
+    <option value="IN">IN</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+	<option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+	<option value="28">28</option>
+    <option value="29">29</option>
+	<option value="30">30</option>
+    <option value="31">31</option>
+    <option value="32">32</option>
+    <option value="33">33</option>
+	<option value="34">34</option>
+    <option value="35">35</option>
+    <option value="36">36</option>
+    <option value="37">37</option>
+	<option value="38">38</option>
+    <option value="39">39</option>
+	<option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+	<option value="44">44</option>
+    <option value="45">45</option>
+    <option value="46">46</option>
+    <option value="47">47</option>
+	<option value="48">48</option>
+    <option value="49">49</option>
+  </select>
+  <br>
+  <br>
+  Hip (in inches):
+  <select name="chest" tabindex="12">
+    <option value="IN">IN</option>
+    <option value="20">20</option>
+    <option value="21">21</option>
+    <option value="22">22</option>
+    <option value="23">23</option>
+	<option value="24">24</option>
+    <option value="25">25</option>
+    <option value="26">26</option>
+    <option value="27">27</option>
+	<option value="28">28</option>
+    <option value="29">29</option>
+	<option value="30">30</option>
+    <option value="31">31</option>
+    <option value="32">32</option>
+    <option value="33">33</option>
+	<option value="34">34</option>
+    <option value="35">35</option>
+    <option value="36">36</option>
+    <option value="37">37</option>
+	<option value="38">38</option>
+    <option value="39">39</option>
+	<option value="40">40</option>
+    <option value="41">41</option>
+    <option value="42">42</option>
+    <option value="43">43</option>
+	<option value="44">44</option>
+    <option value="45">45</option>
+    <option value="46">46</option>
+    <option value="47">47</option>
+	<option value="48">48</option>
+    <option value="49">49</option>
+  </select>
+  <br>
+  <br>
+Description:<br>
+Description.  Please include style, color, size, etc...<br>
+<textarea rows="4" cols="50" name="comment" tabindex="13">
+</textarea><br>
+</fieldset>
+<br>
+<a name="submit"></a>
+<input type="submit" value="Submit" tabindex="14"><br>
+<br>
+
+</form>
+
+<br>
+<br>
+
+</div>
+
+<div id="footer">
+<i>Copyright &copy; 2018 The Princess Closet</i> - 
+Contact me here:
+<a href="mailto:ThePrincessClosetstudio@gmail.com">ThePrincessClosetStudio@gmail.com</a> - 
+<a href="http://nova.umuc.edu/~ct386a23/final/privacypolicy.html">Privacy Policy</a> - 
+<a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fnova.umuc.edu%2F~ct386a23%2Ffinal%2Fform.html">Validated</a>
+<a href="#top" id="floatleft">Back to top of page</a>
+</div>
+
+</body>
+</html>
