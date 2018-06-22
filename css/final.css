@@ -1,0 +1,160 @@
+.image1 {
+	border-radius: 50%
+}
+
+img.image2:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.image2 {
+	border: 1px solid #ddd;
+	border-radius: 30px;
+	padding: 5px;
+	width: 150px;
+}
+
+img.image2:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+body {
+	background-color: #E6E6FA;
+	color: #6918B4;
+	font-family: Georgia;
+	font-family: serif;
+	font-size:2vw;
+}
+
+h1 {
+	color: #6918B4;
+	text-align: center;
+	font-size:5vw;
+}
+
+h2 {
+	color: #6918B4;
+	text-align: center;
+	font-size: 2vw;
+}
+
+#content {
+	color: #6918B4;
+	padding: 25px;
+	text-align: center;
+	font-family: Georgia;
+	font-family: serif;
+}
+
+#footer {
+	background-color: #F0F8FF;
+	color: #6918B4;
+	font-size: 60%;
+	font-style: italic;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+.column {
+    -webkit-column-count: 2; 
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:left;
+}
+
+#floatright {
+	float: right;
+}
+
+#floatleft {
+	float: left;
+}
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, tr {
+	border: 1px solid black;
+	background-color: #F0F8FF;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #F0F8FF;
+    font-family: Georgia;
+	font-family: serif;
+    font-weight: bold;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #6918B4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+textarea {
+    background-color: #F0F8FF;
+}
+
+a:link {
+    color: #6918B4;
+}
+
+/* visited link */
+a:visited {
+    color: #6918B4;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
