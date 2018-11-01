@@ -3,6 +3,16 @@
 	text-decoration: none;
 }
 
+.image2 {
+width: 15vw;
+    transition: transform .1s;
+}
+
+.image3 {
+width: 3vw;
+    transition: transform .1s;
+}
+
 #container {
     text-align: center;
 }
@@ -18,18 +28,12 @@ figure {
     padding: 1vw;
 }
 
-.image2 {
-    transition: transform .1s;
-
-}
-
 a { 
 	text-decoration: none 
 }
 
-.largeImage {
-	height: 100%;
-	width: 100%;
+#largeImage {
+	width: 30%;
 }
 
 img {
@@ -39,7 +43,7 @@ img {
     -o-transition: -o-transform 0.2s;
 }
 
-img.image2:hover {
+img.image2:hover, img.image3:hover {
     box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.2), 0 1.5vw 5vw 0 rgba(0, 0, 0, 0.19);
     -ms-transform: scale(1.01); /* IE 9 */
     -webkit-transform: scale(1.01); /* Safari 3-8 */
@@ -181,4 +185,10 @@ th {
 
 ul.a {
     list-style-type: none;
+}
+
+.comment-text-area {
+float: left;
+width:100%;
+height: auto;
 }
