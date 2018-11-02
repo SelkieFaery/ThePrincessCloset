@@ -131,29 +131,18 @@ font-family: 'Concert One', cursive;
 }
 
 a.one:link {
-    color: black;
+    color: #26bfec;
 }
 
 /* visited link */
 a.one:visited {
-    color: #black;
+    color: #63d7f9;
 }
 /* mouse over link */
 a.one:hover {
     color: #babafc;
 }
-a.two:link {
-    color: #6918B4;
-}
 
-/* visited link */
-a.two:visited {
-    color: #6918B4;
-}
-/* mouse over link */
-a.two:hover {
-    color: #babafc;
-}
 table {
 	font-size:2vw;
 	text-align: left;
@@ -190,5 +179,7 @@ ul.a {
 .comment-text-area {
 float: left;
 width:100%;
+height: auto;
+}
 height: auto;
 }
